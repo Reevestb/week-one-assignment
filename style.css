@@ -1,0 +1,138 @@
+.header {
+  background-color: black;
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.header nav {
+  color: white;
+  display: flex;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-start;
+  bottom: 3.6vh;
+  right: 5vw;
+}
+
+.logo {
+  font-size: 10vh;
+  font-style: oblique;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  font-size: 3vh;
+  display: flex;
+  gap: 8vw;
+}
+
+.Cats {
+  height: 100vh;
+  background-image: url("https://images.hdqwalls.com/wallpapers/black-cat-5k-pk.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.opencats h1 {
+  font-size: 5vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-start;
+  top: 60vh;
+  left: 1vw;
+}
+
+.opencats p {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  font-size: 1.75vh;
+  top: 66vh;
+  left: 1vw;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Dogs {
+  height: 100vh;
+  background-image: url("https://4kwallpapers.com/images/wallpapers/black-dog-cute-puppies-black-background-dark-amoled-5k-3440x1440-1507.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.opendogs h1 {
+  font-size: 5vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-start;
+  top: 60vh;
+  left: 1vw;
+}
+
+.opendogs p {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  font-size: 1.75vh;
+  top: 66vh;
+  left: 1vw;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.Epets {
+  height: 100vh;
+  background-image: url("https://www.wildlife-photography.uk.com/wp-content/uploads/2019/11/1200-Bearded-Dragon_1090121.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  display: flex;
+  position: relative;
+}
+
+.openepets h1 {
+  font-size: 5vh;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  justify-content: flex-end;
+  align-items: flex-start;
+  top: 60vh;
+  left: 1vw;
+}
+
+.openepets p {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  font-size: 1.75vh;
+  top: 66vh;
+  left: 1vw;
+  align-items: flex-start;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.footer {
+  background-color: black;
+  background-size: cover;
+}
+.footer p {
+  color: red;
+  font-size: 2.2vh;
+  display: flex;
+  justify-content: center;
+}
