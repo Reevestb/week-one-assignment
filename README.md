@@ -17,3 +17,5 @@ What went really well and what could have gone better?
 Detailing useful external sources that helped you complete the assignment (e.g Youtube tutorials).
 Describing errors or bugs you encountered while completing your assignment.
 Requesting feedback about a specific part of your submission.
+
+https://reevestb.github.io/week-one-assignment/
