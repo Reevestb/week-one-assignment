@@ -1,6 +1,5 @@
 .header {
   position: fixed;
-  z-index: 1;
   display: flex;
   height: 15vh;
   width: 100vw;
@@ -8,17 +7,7 @@
   align-content: space-around;
   justify-content: flex-start;
   color: white;
-}
-
-.navigation {
-  color: white;
-  display: flex;
-  position: fixed;
   z-index: 1;
-  justify-content: flex-start;
-  align-items: flex-start;
-  top: 6vh;
-  right: 5vw;
 }
 
 .logo {
@@ -29,14 +18,30 @@
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: flex-start;
-  z-index: 1;
 }
 
 .navigation {
   display: flex;
+  position: fixed;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 6.2vh;
+  right: 17vw;
   font-size: 3vh;
-  display: flex;
-  gap: 8vw;
+  gap: 5vw;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.navigation a:hover {
+  text-decoration: underline solid 0.25vh lightgray;
+  color: darkgray;
+  font-size: 4vh;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }
 
 .Cats {
@@ -71,6 +76,24 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+.learnCats {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  max-width: 13.4vw;
+  font-size: 3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 69vh;
+  left: 0.75vw;
+  padding: 0.75vw 0.75vh;
+  border: solid 0.2vh;
+  border-radius: 25px;
+}
+
+.Cats a:hover {
+  color: lightgrey;
+}
+
 .Dogs {
   height: 100vh;
   background-image: url("https://4kwallpapers.com/images/wallpapers/black-dog-cute-puppies-black-background-dark-amoled-5k-3440x1440-1507.jpg");
@@ -101,6 +124,24 @@
   align-items: flex-start;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.learnDog {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  max-width: 13.4vw;
+  font-size: 3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 69vh;
+  left: 0.75vw;
+  padding: 0.75vw 0.75vh;
+  border: solid 0.2vh;
+  border-radius: 25px;
+}
+
+.Dogs a:hover {
+  color: lightgrey;
 }
 
 .Epets {
@@ -134,13 +175,65 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
+
+.learnEpet {
+  display: flex;
+  position: relative;
+  justify-content: flex-start;
+  max-width: 13.4vw;
+  font-size: 3vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  top: 69vh;
+  left: 0.75vw;
+  padding: 0.75vw 0.75vh;
+  border: solid 0.2vh;
+  border-radius: 25px;
+}
+
+.Epets a:hover {
+  color: lightgrey;
+}
+
 .footer {
   background-color: black;
   background-size: cover;
+  display: flex;
+  position: relative;
+  height: 9vh;
+  width: 100vw;
 }
-.footer p {
+.footer h6 {
+  color: red;
+  font-size: 1.75vh;
+  display: flex;
+  position: absolute;
+  align-content: flex-end;
+  right: 1vw;
+  top: 6.5vh;
+}
+
+.address {
   color: red;
   font-size: 2.2vh;
   display: flex;
-  justify-content: center;
+  position: absolute;
+  justify-content: flex-start;
+  left: 1vw;
+}
+
+.contact {
+  font-size: 2.2vh;
+  display: flex;
+  position: absolute;
+  justify-content: flex-start;
+  left: 10vw;
+  top: 4.2vh;
+}
+
+.contact a {
+  color: red;
+}
+.contact a:hover {
+  text-decoration: underline solid 0.25vh lightgray;
+  color: darkgray;
 }
