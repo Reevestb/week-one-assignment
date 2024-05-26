@@ -12,7 +12,7 @@
 
 .logo {
   color: white;
-  font-size: 7.5rem;
+  font-size: 12vh;
   font-style: oblique;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -27,7 +27,7 @@
   align-items: flex-start;
   top: 6.2vh;
   right: 8vw;
-  font-size: 2.025rem;
+  font-size: 3vh;
   gap: 5vw;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -55,7 +55,7 @@ a {
 }
 
 .opencats h1 {
-  font-size: 3.375rem;
+  font-size: 5vh;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   position: absolute;
   justify-content: flex-end;
@@ -68,7 +68,7 @@ a {
   display: flex;
   position: relative;
   justify-content: flex-start;
-  font-size: 1.125rem;
+  font-size: 1.75vh;
   top: 66vh;
   left: 1vw;
   align-items: flex-start;
